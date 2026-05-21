@@ -1,0 +1,22 @@
+# Ignore everything by default.
+*
+
+# Allow Git metadata for this ignore file.
+!.gitignore
+
+# Allow directories so nested project files can be discovered.
+!*/
+
+# Allow C# source and project files.
+!*.cs
+!*.csproj
+!*.sln
+!global.json
+!Directory.Build.props
+!Directory.Build.targets
+
+# Keep build output and generated restore files ignored.
+bin/
+obj/
+**/bin/
+**/obj/

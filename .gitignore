@@ -15,6 +15,10 @@
 !Directory.Build.props
 !Directory.Build.targets
 
+# Keep root scratch project files out of Git.
+/Program.cs
+/test.csproj
+
 # Keep build output and generated restore files ignored.
 bin/
 obj/
